@@ -1,0 +1,16 @@
+film-score-discovery/
+├── src/
+│   ├── index.ts          # Entry point
+│   ├── routes/  HTTP layer, what endpoints exist and what they accept. HTTP requests + responses only.
+│   │   ├── ingest.ts     # POST /ingest
+│   │   └── search.ts     # GET /search
+│   ├── services/ contains the database layer — how to talk to Postgres and ElasticSearch. databases only.
+│   │   ├── postgres.ts   # DB connection + queries
+│   │   └── elastic.ts    # ElasticSearch client + indexing
+│   ├── types/ contains TypeScript interfaces — the shared definitions of what a Film object looks like. 
+│   │   └── film.ts       # Your TypeScript interfaces
+│   └── scripts/ contains one-off operations — the seed script to run once to populate data.
+│       └── seed.ts       # Bulk ingest from APIs
+├── .env
+├── docker-compose.yml
+└── package.json

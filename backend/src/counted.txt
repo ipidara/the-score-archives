@@ -1,0 +1,260 @@
+===== Broad Popular Titles =====
+TMDB total_results: 1125535
+TMDB total_pages: 56277
+Pages scanned: 5
+Unique titles scanned: 100
+Eligible titles: 84
+Eligibility rate: 84.00%
+
+Sample eligible titles:
+┌─────────┬─────────┬────────────────────────────────────┬───────────────────────────────────────┐
+│ (index) │ id      │ title                              │ composers                             │
+├─────────┼─────────┼────────────────────────────────────┼───────────────────────────────────────┤
+│ 0       │ 1226863 │ 'The Super Mario Galaxy Movie'     │ [ 'Brian Tyler' ]                     │
+│ 1       │ 83533   │ 'Avatar: Fire and Ash'             │ [ 'Simon Franglen' ]                  │
+│ 2       │ 980431  │ 'Avatar: Aang, The Last Airbender' │ [ 'Jeremy Zuckerman' ]                │
+│ 3       │ 1470130 │ 'The Mortuary Assistant'           │ [ 'Jeffery Alan Jones' ]              │
+│ 4       │ 687163  │ 'Project Hail Mary'                │ [ 'Daniel Pemberton' ]                │
+│ 5       │ 1327819 │ 'Hoppers'                          │ [ 'Mark Mothersbaugh' ]               │
+│ 6       │ 1290417 │ 'Thrash'                           │ [ 'Dominic Lewis', 'Daniel Futcher' ] │
+│ 7       │ 20222   │ 'Sex with Love'                    │ [ 'Álvaro Henríquez' ]                │
+│ 8       │ 1084577 │ 'Balls Up'                         │ [ 'Dave Palmer' ]                     │
+│ 9       │ 1290821 │ 'Shelter'                          │ [ 'David Buckley' ]                   │
+└─────────┴─────────┴────────────────────────────────────┴───────────────────────────────────────┘
+
+Sample skipped titles:
+┌─────────┬─────────┬────────────────────────────────┐
+│ (index) │ id      │ title                          │
+├─────────┼─────────┼────────────────────────────────┤
+│ 0       │ 1523145 │ 'Your Heart Will Be Broken'    │
+│ 1       │ 879945  │ 'The Unknown Man'              │
+│ 2       │ 1613798 │ 'Vengeance'                    │
+│ 3       │ 662707  │ 'Starbright'                   │
+│ 4       │ 1610418 │ 'The House on Haunted Grounds' │
+│ 5       │ 418579  │ 'Young Sister-In-Law'          │
+│ 6       │ 1659087 │ '180'                          │
+│ 7       │ 1646787 │ 'Sundutan'                     │
+│ 8       │ 1658216 │ 'Stepdaddy'                    │
+│ 9       │ 300496  │ 'Nefeli'                       │
+└─────────┴─────────┴────────────────────────────────┘
+Estimated insertable total if rate holds: 945449
+
+===== Popular Sci-Fi Titles =====
+TMDB total_results: 25811
+TMDB total_pages: 1291
+Pages scanned: 3
+Unique titles scanned: 59
+Eligible titles: 58
+Eligibility rate: 98.31%
+
+Sample eligible titles:
+┌─────────┬─────────┬──────────────────────────────┬──────────────────────────┐
+│ (index) │ id      │ title                        │ composers                │
+├─────────┼─────────┼──────────────────────────────┼──────────────────────────┤
+│ 0       │ 83533   │ 'Avatar: Fire and Ash'       │ [ 'Simon Franglen' ]     │
+│ 1       │ 687163  │ 'Project Hail Mary'          │ [ 'Daniel Pemberton' ]   │
+│ 2       │ 1327819 │ 'Hoppers'                    │ [ 'Mark Mothersbaugh' ]  │
+│ 3       │ 840464  │ 'Greenland 2: Migration'     │ [ 'David Buckley' ]      │
+│ 4       │ 1265609 │ 'War Machine'                │ [ 'Dmitri Golovko' ]     │
+│ 5       │ 1159831 │ 'The Bride!'                 │ [ 'Hildur Guðnadóttir' ] │
+│ 6       │ 755898  │ 'War of the Worlds'          │ [ 'Jon Natchez' ]        │
+│ 7       │ 634649  │ 'Spider-Man: No Way Home'    │ [ 'Michael Giacchino' ]  │
+│ 8       │ 1115544 │ 'Mike & Nick & Nick & Alice' │ [ 'Joseph Trapanese' ]   │
+│ 9       │ 157336  │ 'Interstellar'               │ [ 'Hans Zimmer' ]        │
+└─────────┴─────────┴──────────────────────────────┴──────────────────────────┘
+
+Sample skipped titles:
+┌─────────┬─────────┬──────────┐
+│ (index) │ id      │ title    │
+├─────────┼─────────┼──────────┤
+│ 0       │ 1241470 │ 'Osiris' │
+└─────────┴─────────┴──────────┘
+Estimated insertable total if rate holds: 25374
+
+===== Popular Drama Titles =====
+TMDB total_results: 285060
+TMDB total_pages: 14253
+Pages scanned: 3
+Unique titles scanned: 60
+Eligible titles: 47
+Eligibility rate: 78.33%
+
+Sample eligible titles:
+┌─────────┬─────────┬─────────────────────────┬─────────────────────────┐
+│ (index) │ id      │ title                   │ composers               │
+├─────────┼─────────┼─────────────────────────┼─────────────────────────┤
+│ 0       │ 1049471 │ 'Outcome'               │ [ 'Jon Brion' ]         │
+│ 1       │ 680493  │ 'Return to Silent Hill' │ [ 'Akira Yamaoka' ]     │
+│ 2       │ 1268127 │ 'Humint'                │ [ 'Cho Young-wuk' ]     │
+│ 3       │ 350     │ 'The Devil Wears Prada' │ [ 'Theodore Shapiro' ]  │
+│ 4       │ 1316092 │ '"Wuthering Heights"'   │ [ 'Anthony B. Willis' ] │
+│ 5       │ 1419406 │ "The Shadow's Edge"     │ [ 'Nicolas Errèra' ]    │
+│ 6       │ 1367642 │ 'Reminders of Him'      │ [ 'Tom Howe' ]          │
+│ 7       │ 157336  │ 'Interstellar'          │ [ 'Hans Zimmer' ]       │
+│ 8       │ 77338   │ 'The Intouchables'      │ [ 'Ludovico Einaudi' ]  │
+│ 9       │ 7451    │ 'xXx'                   │ [ 'Randy Edelman' ]     │
+└─────────┴─────────┴─────────────────────────┴─────────────────────────┘
+
+Sample skipped titles:
+┌─────────┬─────────┬─────────────────────────────┐
+│ (index) │ id      │ title                       │
+├─────────┼─────────┼─────────────────────────────┤
+│ 0       │ 1523145 │ 'Your Heart Will Be Broken' │
+│ 1       │ 879945  │ 'The Unknown Man'           │
+│ 2       │ 1659087 │ '180'                       │
+│ 3       │ 1646787 │ 'Sundutan'                  │
+│ 4       │ 1658216 │ 'Stepdaddy'                 │
+│ 5       │ 1010581 │ 'My Fault'                  │
+│ 6       │ 329505  │ "Lola's Secret"             │
+│ 7       │ 1266992 │ 'Balinsasayaw'              │
+│ 8       │ 1424965 │ 'Ice Skater'                │
+│ 9       │ 950891  │ 'The Sales Girl'            │
+└─────────┴─────────┴─────────────────────────────┘
+Estimated insertable total if rate holds: 223297
+
+===== Popular Adventure Titles =====
+TMDB total_results: 27022
+TMDB total_pages: 1352
+Pages scanned: 3
+Unique titles scanned: 60
+Eligible titles: 58
+Eligibility rate: 96.67%
+
+Sample eligible titles:
+┌─────────┬─────────┬────────────────────────────────────┬─────────────────────────┐
+│ (index) │ id      │ title                              │ composers               │
+├─────────┼─────────┼────────────────────────────────────┼─────────────────────────┤
+│ 0       │ 1226863 │ 'The Super Mario Galaxy Movie'     │ [ 'Brian Tyler' ]       │
+│ 1       │ 83533   │ 'Avatar: Fire and Ash'             │ [ 'Simon Franglen' ]    │
+│ 2       │ 980431  │ 'Avatar: Aang, The Last Airbender' │ [ 'Jeremy Zuckerman' ]  │
+│ 3       │ 687163  │ 'Project Hail Mary'                │ [ 'Daniel Pemberton' ]  │
+│ 4       │ 1327819 │ 'Hoppers'                          │ [ 'Mark Mothersbaugh' ] │
+│ 5       │ 1084577 │ 'Balls Up'                         │ [ 'Dave Palmer' ]       │
+│ 6       │ 840464  │ 'Greenland 2: Migration'           │ [ 'David Buckley' ]     │
+│ 7       │ 502356  │ 'The Super Mario Bros. Movie'      │ [ 'Brian Tyler' ]       │
+│ 8       │ 1084242 │ 'Zootopia 2'                       │ [ 'Michael Giacchino' ] │
+│ 9       │ 1234731 │ 'Anaconda'                         │ [ 'David Fleming' ]     │
+└─────────┴─────────┴────────────────────────────────────┴─────────────────────────┘
+
+Sample skipped titles:
+┌─────────┬─────────┬─────────────────────────────────────┐
+│ (index) │ id      │ title                               │
+├─────────┼─────────┼─────────────────────────────────────┤
+│ 0       │ 662707  │ 'Starbright'                        │
+│ 1       │ 1381216 │ "Lake Jesup: Bonecrusher's Revenge" │
+└─────────┴─────────┴─────────────────────────────────────┘
+Estimated insertable total if rate holds: 26121
+
+===== Popular Romance Titles =====
+TMDB total_results: 62072
+TMDB total_pages: 3104
+Pages scanned: 3
+Unique titles scanned: 60
+Eligible titles: 46
+Eligibility rate: 76.67%
+
+Sample eligible titles:
+┌─────────┬─────────┬─────────────────────────────────────────────┬──────────────────────────┐
+│ (index) │ id      │ title                                       │ composers                │
+├─────────┼─────────┼─────────────────────────────────────────────┼──────────────────────────┤
+│ 0       │ 20222   │ 'Sex with Love'                             │ [ 'Álvaro Henríquez' ]   │
+│ 1       │ 1367642 │ 'Reminders of Him'                          │ [ 'Tom Howe' ]           │
+│ 2       │ 848116  │ 'Rocky Aur Rani Kii Prem Kahaani'           │ [ 'Pritam Chakraborty' ] │
+│ 3       │ 1316092 │ '"Wuthering Heights"'                       │ [ 'Anthony B. Willis' ]  │
+│ 4       │ 1325734 │ 'The Drama'                                 │ [ 'Daniel Pemberton' ]   │
+│ 5       │ 1246049 │ 'Dracula'                                   │ [ 'Danny Elfman' ]       │
+│ 6       │ 50619   │ 'The Twilight Saga: Breaking Dawn - Part 1' │ [ 'Carter Burwell' ]     │
+│ 7       │ 744275  │ 'After We Fell'                             │ [ 'George Kallis' ]      │
+│ 8       │ 858024  │ 'Hamnet'                                    │ [ 'Max Richter' ]        │
+│ 9       │ 597     │ 'Titanic'                                   │ [ 'James Horner' ]       │
+└─────────┴─────────┴─────────────────────────────────────────────┴──────────────────────────┘
+
+Sample skipped titles:
+┌─────────┬─────────┬─────────────────────────────────────┐
+│ (index) │ id      │ title                               │
+├─────────┼─────────┼─────────────────────────────────────┤
+│ 0       │ 1523145 │ 'Your Heart Will Be Broken'         │
+│ 1       │ 418579  │ 'Young Sister-In-Law'               │
+│ 2       │ 300496  │ 'Nefeli'                            │
+│ 3       │ 1010581 │ 'My Fault'                          │
+│ 4       │ 1650558 │ 'Abot Langit'                       │
+│ 5       │ 107257  │ 'A Perfect Ending'                  │
+│ 6       │ 2288    │ 'Closer'                            │
+│ 7       │ 286687  │ 'Love Lesson'                       │
+│ 8       │ 1231914 │ 'Female Workers: Romance at Work 3' │
+│ 9       │ 1403735 │ 'Laila'                             │
+└─────────┴─────────┴─────────────────────────────────────┘
+Estimated insertable total if rate holds: 47589
+
+===== Popular Thriller Titles =====
+TMDB total_results: 59079
+TMDB total_pages: 2954
+Pages scanned: 3
+Unique titles scanned: 60
+Eligible titles: 51
+Eligibility rate: 85.00%
+
+Sample eligible titles:
+┌─────────┬─────────┬────────────────────────────┬───────────────────────────────────────────┐
+│ (index) │ id      │ title                      │ composers                                 │
+├─────────┼─────────┼────────────────────────────┼───────────────────────────────────────────┤
+│ 0       │ 1290417 │ 'Thrash'                   │ [ 'Dominic Lewis', 'Daniel Futcher' ]     │
+│ 1       │ 1290821 │ 'Shelter'                  │ [ 'David Buckley' ]                       │
+│ 2       │ 840464  │ 'Greenland 2: Migration'   │ [ 'David Buckley' ]                       │
+│ 3       │ 1641319 │ 'Sniper: No Nation'        │ [ 'Sean Ou Tim', 'Daniel Caleb Matthee' ] │
+│ 4       │ 1198994 │ 'Send Help'                │ [ 'Danny Elfman' ]                        │
+│ 5       │ 1171145 │ 'Crime 101'                │ [ 'Benjamin John Power' ]                 │
+│ 6       │ 1010755 │ 'The Strangers: Chapter 3' │ [ 'Justin Burnett', 'Òscar Senén' ]       │
+│ 7       │ 1418657 │ 'The Yeti'                 │ [ 'John Hunter' ]                         │
+│ 8       │ 1265609 │ 'War Machine'              │ [ 'Dmitri Golovko' ]                      │
+│ 9       │ 1526650 │ 'Mudborn'                  │ [ 'Rockid Lee' ]                          │
+└─────────┴─────────┴────────────────────────────┴───────────────────────────────────────────┘
+
+Sample skipped titles:
+┌─────────┬─────────┬─────────────────────────┐
+│ (index) │ id      │ title                   │
+├─────────┼─────────┼─────────────────────────┤
+│ 0       │ 1613798 │ 'Vengeance'             │
+│ 1       │ 1659087 │ '180'                   │
+│ 2       │ 1010581 │ 'My Fault'              │
+│ 3       │ 1110034 │ 'Kraken'                │
+│ 4       │ 680     │ 'Pulp Fiction'          │
+│ 5       │ 1424965 │ 'Ice Skater'            │
+│ 6       │ 1297454 │ 'The Death That Awaits' │
+│ 7       │ 1243741 │ 'Ballistic'             │
+│ 8       │ 11324   │ 'Shutter Island'        │
+└─────────┴─────────┴─────────────────────────┘
+Estimated insertable total if rate holds: 50217
+
+===== Popular Animation Titles =====
+TMDB total_results: 68796
+TMDB total_pages: 3440
+Pages scanned: 3
+Unique titles scanned: 59
+Eligible titles: 57
+Eligibility rate: 96.61%
+
+Sample eligible titles:
+┌─────────┬─────────┬──────────────────────────────────────────────────┬─────────────────────────────────┐
+│ (index) │ id      │ title                                            │ composers                       │
+├─────────┼─────────┼──────────────────────────────────────────────────┼─────────────────────────────────┤
+│ 0       │ 1226863 │ 'The Super Mario Galaxy Movie'                   │ [ 'Brian Tyler' ]               │
+│ 1       │ 980431  │ 'Avatar: Aang, The Last Airbender'               │ [ 'Jeremy Zuckerman' ]          │
+│ 2       │ 1327819 │ 'Hoppers'                                        │ [ 'Mark Mothersbaugh' ]         │
+│ 3       │ 502356  │ 'The Super Mario Bros. Movie'                    │ [ 'Brian Tyler' ]               │
+│ 4       │ 1297842 │ 'GOAT'                                           │ [ 'Kris Bowers' ]               │
+│ 5       │ 1311031 │ 'Demon Slayer: Kimetsu no Yaiba Infinity Castle' │ [ 'Yuki Kajiura', 'Go Shiina' ] │
+│ 6       │ 1084242 │ 'Zootopia 2'                                     │ [ 'Michael Giacchino' ]         │
+│ 7       │ 1539104 │ 'JUJUTSU KAISEN: Execution'                      │ [ 'Yoshimasa Terui' ]           │
+│ 8       │ 803796  │ 'KPop Demon Hunters'                             │ [ 'Marcelo Zarvos' ]            │
+│ 9       │ 1117857 │ 'In Your Dreams'                                 │ [ 'John Debney' ]               │
+└─────────┴─────────┴──────────────────────────────────────────────────┴─────────────────────────────────┘
+
+Sample skipped titles:
+┌─────────┬─────────┬───────────────────────────────┐
+│ (index) │ id      │ title                         │
+├─────────┼─────────┼───────────────────────────────┤
+│ 0       │ 426889  │ 'Le Clitoris'                 │
+│ 1       │ 1357633 │ 'Solo Leveling -ReAwakening-' │
+└─────────┴─────────┴───────────────────────────────┘
+Estimated insertable total if rate holds: 66464
