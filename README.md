@@ -2,7 +2,7 @@
 
 Search film scores by composer, mood, and instrumentation. Built with TypeScript, Node.js, PostgreSQL, OpenSearch, and React.
 
-[Try It Out](https://the-score-archives.vercel.app/) · [API](https://the-score-archives.onrender.com)
+[Try It Out](https://the-score-archives.vercel.app/)
 
 ---
 
