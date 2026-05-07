@@ -4,9 +4,12 @@
 import { Pool } from 'pg';
 import { type Film } from '../types/film.js';
 
+const connectionString = process.env.PG_CONNECTION_STRING;
+const useSsl = /sslmode=require/.test(connectionString ?? '');
+
 const pool = new Pool({
-  connectionString: process.env.PG_CONNECTION_STRING,
-  ssl: { rejectUnauthorized: false }
+  connectionString,
+  ssl: useSsl ? { rejectUnauthorized: false } : false
 });
 
 // create table 

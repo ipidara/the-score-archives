@@ -9,14 +9,32 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d filmscores"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
 
   opensearch:
     image: opensearchproject/opensearch:2.11.0
     environment:
       - discovery.type=single-node
       - plugins.security.disabled=true
+      - bootstrap.memory_lock=true
+      - OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
     ports:
       - "9200:9200"
+    volumes:
+      - opensearch_data:/usr/share/opensearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fs http://localhost:9200/_cluster/health || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
 
   app:
     build: .
@@ -25,12 +43,16 @@ services:
     environment:
       - PORT=3000
       - PG_CONNECTION_STRING=postgresql://postgres:postgres@postgres:5432/filmscores
-      - ELASTIC_URL=http://opensearch:9200
+      - BONSAI_URL=http://opensearch:9200
+      - FRONTEND_URL=${FRONTEND_URL:-http://localhost:5173}
       - TMDB_API_KEY=${TMDB_API_KEY}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
     depends_on:
-      - postgres
-      - opensearch
+      postgres:
+        condition: service_healthy
+      opensearch:
+        condition: service_healthy
 
 volumes:
   postgres_data:
+  opensearch_data:
